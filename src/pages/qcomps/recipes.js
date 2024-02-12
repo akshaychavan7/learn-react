@@ -17,7 +17,6 @@ export default function RecipeList() {
     <div>
       <h1>Recipes</h1>
 
-
       {
         recipes.map(recipe => <div key={recipe.id}>
           <h1>{recipe.name}</h1>
@@ -26,7 +25,7 @@ export default function RecipeList() {
               {ingredient}
               </li>
             )
-}
+            }
           </ul>
         </div>)
       }
