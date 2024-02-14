@@ -7,6 +7,7 @@ export default function Counter() {
     <>
       <h1>{number}</h1>
       <button onClick={() => {
+        console.log("number", number);
         setNumber(number + 1);
         setNumber(number + 1);
         setNumber(number + 1);
