@@ -18,6 +18,7 @@ export default function List() {
             ...artists,
             {id: nextId++, name: name}
         ]);
+        console.log("artists", artists);
       }}>Add</button>
       <ul>
         {artists.map(artist => (
